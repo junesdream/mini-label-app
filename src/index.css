@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.primary-color {
+  /* @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block; */
+  background-image: linear-gradient(to right, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+  -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.secondary-color{
+   @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+body{
+  background-color: black;
+}
+
+.bg-primary-color{
+  @apply bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+
+/* Abgeschwächter Neon text effect */
+.neon-text {
+   color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff,
+    0 0 40px #0ff, 0 0 120px #0ff, 0 0 140px #0ff, 0 0 200px #0ff,
+    0 0 500px #0ff;
+}
+
