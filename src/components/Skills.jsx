@@ -21,7 +21,7 @@ const Skills = () => {
 
 			<div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
 				<img src={disco} alt="" />
-				<p className="mt-2">Disoc</p>
+				<p className="mt-2">Disco</p>
 			</div>
 
 			<div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">

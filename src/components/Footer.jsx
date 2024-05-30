@@ -34,9 +34,10 @@ const Footer = () => {
 			</div>
 			<p className="text-gray-600">
 				<a href=" " className="text-[#c6e2ff]">
-					info@sorinori.com
+					sorinorimusic@gmail.com
 				</a>
-				<br/> <span className="primary-color">&#x00A9; sorinori2024 </span> 
+				<br />{" "}
+				<span className="primary-color">&#x00A9; sorinori2024 </span>
 			</p>
 		</div>
 	);
